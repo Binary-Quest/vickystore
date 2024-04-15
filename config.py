@@ -40,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hᴇʟʟᴏ {first} 🖤\n\nI ᴀᴍ ʏᴏᴜʀ ᴡᴀɪꜰᴜ.. 🥵\n\n-> ʏᴏᴜ ᴄᴀɴ ᴜɴᴅʀᴇss ᴍᴇ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴠɪᴅᴇᴏꜱ ᴀɴᴅ ʟɪɴᴋꜱ sʜᴀʀᴇᴅ ʙʏ ᴠɪᴄᴋʏ ʙʜᴀɪʏᴀ😈\n\n✪ C......Ⓟ︎   ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTE3NzM3MTk1MDcxNDEyOC0xOTAzOTkyNjkxMjgxNjA'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✪ M⍟M-S⍟N small ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTY1MTM2NTkyMDcwMTYwLTc3MTYxODA5MDY3NzI4'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✪ M⍟M-S⍟N ʏᴏᴜɴɢ ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTc4MTYzOTEwNDg0MTkyLTg0MTc2NTE4OTgyOTc2'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✪ ɪɴᴄᴇ$ᴛ  ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTg1MTc4NjIwMzk5NDQwLTkzMTk1NDMxNzMxMTUy'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✪ Tᴇ€N   ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTk0MTk3NTMzMTQ3NjE2LTEwMTIxMjI0MzA2Mjg2NA'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✪ R---P ғ0ʀᴄᴇᴅ  ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTEwMjIxNDM0NDQ3OTMyOC0xMDkyMjkwNTQzOTQ1NzY'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✪ GⒶ︎ʏ    ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTExMDIzMTE1NTgxMTA0MC0xMTgyNDc5NjcxNDI3NTI'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✪ sⒾ︎s - ʙʀⓄ︎   ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTExOTI1MDA2ODU1OTIxNi0xMjgyNjg5ODEzMDczOTI'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✪ D€Sɪ - ɪɴᴅ     ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTEyOTI3MTA4MjcyMzg1Ni0xNzEzNTkzNDIyMTUzNDQ'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n✪ M⍟ʀᴇ  Cᴀᴛᴇɢᴏʀʏ  ➪ <a href='https://t.me/Vicky_Links_Bot?start=Z2V0LTE3MjM2MTQ0MzYzMTgwOC0xNzQzNjU2NDY0NjQ3MzY'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n\nɢᴇᴛ ʏᴏᴜʀ ꜰɪʟᴇs ᴀɴᴅ ᴇɴᴊᴏʏ 🥀</b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "7111311972").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -61,7 +61,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "Tʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴏᴜʀ ʙᴏᴛ 🖤\nBᴀᴄᴋᴜᴘ ~ https://t.me/+hiP5wprGfB5iMzA0☠️"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
