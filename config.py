@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hᴇʟʟᴏ {first} 🖤\n\nI ᴀᴍ ʏᴏᴜʀ ᴡᴀɪꜰᴜ.. 🥵\n\n-> ʏᴏᴜ ᴄᴀɴ ᴜɴᴅʀᴇss ᴍᴇ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴠɪᴅᴇᴏꜱ ᴀɴᴅ ʟɪɴᴋꜱ sʜᴀʀᴇᴅ ʙʏ ᴠɪᴄᴋʏ ʙʜᴀɪʏᴀ😈\n\n\n✯ ᴄʟɪᴄᴋ ᴛʜᴇ ʟɪɴᴋꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ʟɪɴᴋꜱ ~ \nhttps://t.me/Vick_link_bot?start=Z2V0LTc4MzY0MzMwNzY3NDg0OA \n Or <a href='https://t.me/Vick_link_bot?start=Z2V0LTc4MzY0MzMwNzY3NDg0OA'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n\n\nɢᴇᴛ ʏᴏᴜʀ ꜰɪʟᴇs ᴀɴᴅ ᴇɴᴊᴏʏ 🥀</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hᴇʟʟᴏ {first} 🖤\n\nI ᴀᴍ ʏᴏᴜʀ ᴡᴀɪꜰᴜ.. 🥵\n\n-> ʏᴏᴜ ᴄᴀɴ ᴜɴᴅʀᴇss ᴍᴇ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴠɪᴅᴇᴏꜱ ᴀɴᴅ ʟɪɴᴋꜱ sʜᴀʀᴇᴅ ʙʏ ᴠɪᴄᴋʏ ʙʜᴀɪʏᴀ😈\n\n\n✯ ᴄʟɪᴄᴋ ᴛʜᴇ ʟɪɴᴋꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ʟɪɴᴋꜱ ~ \nhttps://t.me/Vick_link_bot?start=Z2V0LTc4MzY0MzMwNzY3NDg0OA \n Or\n <a href='https://t.me/Vick_link_bot?start=Z2V0LTc4MzY0MzMwNzY3NDg0OA'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n\n\nɢᴇᴛ ʏᴏᴜʀ ꜰɪʟᴇs ᴀɴᴅ ᴇɴᴊᴏʏ 🥀</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "7111311972").split()):
